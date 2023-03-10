@@ -1,0 +1,17 @@
+.menu {
+  /* width: 350px; */
+  height: 100%;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #001628;
+}
+.menuHeader{
+  height: 35px;
+  line-height: 35px;
+  /* font-size: 8px; */
+  color: white;
+  background-color: #001628;
+}
