@@ -96,10 +96,22 @@ const Webterminal = () => {
       const ev = e.domEvent;
       const printable = !ev.altKey && !ev.altGraphKey && !ev.ctrlKey && !ev.metaKey;
       if (ev.keyCode === 13) {
+
+        const sshInfo = localStorage.getItem('sshInfo');
+        if (sshInfo?.includes('touch') || sshInfo?.includes('mkdir')) {
+          PubSub.publish('listdir');
+        }
+        if (sshInfo?.includes('rm')) {
+          PubSub.publish('listdir');
+        }
         socket.send(JSON.stringify({ data: `${e.key}` }));
+        localStorage.setItem('sshInfo', '');
+
         // term.prompt();
       } else if (ev.keyCode === 8) {
         // Do not delete the prompt
+        const sshInfo = localStorage.getItem('sshInfo') || '';
+        localStorage.setItem('sshInfo', sshInfo?.slice(0, sshInfo.length - 1));
         // eslint-disable-next-line @typescript-eslint/restrict-plus-operands
         term.write('\x7F');
         socket.send(JSON.stringify({ data: `${e.key}` }));
@@ -107,6 +119,7 @@ const Webterminal = () => {
           // term.write('\b \b');
         }
       } else if (printable) {
+        localStorage.setItem('sshInfo', (localStorage.getItem('sshInfo') || '') + e.key);
         // term.write(e.key);
         socket.send(JSON.stringify({ data: `${e.key}` }));
       }
