@@ -1,3 +1,5 @@
+#项目预览地址:47.115.211.223:3333
+
 <<<<<<< HEAD
 ## Antd Design & icejs scaffold
 
@@ -59,7 +61,8 @@ $ npm start  # visit http://localhost:3333
 ```
 =======
 # onlineCoding
->>>>>>> 2976351bf39eb2b8193e508e72db960712e04393
+项目主要用到react,Antd,axios,ice.js飞冰文档
+
 
 ## 注意事项
 可能由于用的ice框架比较旧，集成的也是比较旧的antd版本，所以得注意antd的版本号
