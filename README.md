@@ -17,9 +17,10 @@ $ yarn
 
 # 启动服务
 $ npm start  # visit http://localhost:3333
-```
 或者
 $ yarn start
+```
+
 
 [More docs](https://ice.work/docs/guide/about).
 
