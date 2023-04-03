@@ -20,7 +20,11 @@ $ npm start  # visit http://localhost:3333
 或者
 $ yarn start
 ```
-
+登录时先注册账号，邮箱登录或者账号密码登录都可，然后登录，注册时要求密码13位以上，英文加数字。
+本项目可编码python语言，py文件
+写完代码右上角运行，下面命令行会有显示
+也可将写好的代码导出Py文件，也可引入py文件
+命令行中可使用Linux命令进行操作
 
 [More docs](https://ice.work/docs/guide/about).
 
