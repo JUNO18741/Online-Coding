@@ -1,17 +1,24 @@
-#项目预览地址:47.115.211.223:3333
+本项目感谢后端技术支持，不胜感激
 
 <<<<<<< HEAD
+# 项目预览地址:47.115.211.223:3333
 ## Antd Design & icejs scaffold
+![SOGVVZ7DXJZ(WOH3C6V0W)4](https://user-images.githubusercontent.com/101552308/229388522-35348f62-dbb5-414f-9f95-b5207aa2b542.png)
+![66K6~CM_I6U0D$JN5D1IO}R](https://user-images.githubusercontent.com/101552308/229388526-6ab63419-3061-43ed-85ab-cc63992a0b65.png)
 
 ## 使用
 
 ```bash
 # 安装依赖
 $ npm install
+或者
+$ yarn 
 
 # 启动服务
 $ npm start  # visit http://localhost:3333
 ```
+或者
+$ yarn start
 
 [More docs](https://ice.work/docs/guide/about).
 
