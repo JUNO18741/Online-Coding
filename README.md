@@ -1,8 +1,9 @@
-本项目后端技术支持人员，不胜感激
+感谢本项目后端技术支持人员
 
 <<<<<<< HEAD
 # 项目预览地址:
 http://47.115.211.223:3333/
+（目前后端服务器已停止）
 ## Antd Design & icejs scaffold
 ![SOGVVZ7DXJZ(WOH3C6V0W)4](https://user-images.githubusercontent.com/101552308/229388522-35348f62-dbb5-414f-9f95-b5207aa2b542.png)
 ![66K6~CM_I6U0D$JN5D1IO}R](https://user-images.githubusercontent.com/101552308/229388526-6ab63419-3061-43ed-85ab-cc63992a0b65.png)
